@@ -246,6 +246,13 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
     font-style: italic
 }
 
+.home-subtitle-mini {
+    color: #f2f2f2;
+    font-size: 12pt;
+    font-weight: 300;
+    font-style: italic
+}
+
 .home-subtitle a {
     color: inherit
 }
