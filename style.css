@@ -193,12 +193,16 @@ body
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:hover {
-    background-color: inherit;
-    text-decoration: underline
+    text-decoration: underline;
+}
+
+.subtitle-mini-links {
+    color: white;
+    padding-right: 10px;
 }
 
 table,caption,tbody,tfoot,thead,tr,th,td {
@@ -249,7 +253,7 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
 .home-subtitle-mini {
     padding-top: 0.4em;
     margin-top: 10px;
-    color: #f2f2f2;
+    color: #ffffff;
     font-size: 12pt;
     font-weight: 300;
     font-style: italic
@@ -332,5 +336,5 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
 	height: 100%;
 	width: 100%;
  	position: fixed;
-	background: #050330;
+    background: linear-gradient(to top right, #050330 0%, #003366 100%);
 }
