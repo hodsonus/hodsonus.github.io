@@ -196,13 +196,20 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 .subtitle-mini-links {
     color: white;
     padding-right: 10px;
+}
+
+
+.subtitle-mini-links:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
 }
 
 table,caption,tbody,tfoot,thead,tr,th,td {
@@ -234,6 +241,12 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
 
 .home-header {
     margin-bottom: .3rem
+}
+
+.home-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 .home-name {
