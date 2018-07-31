@@ -234,16 +234,25 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
     z-index: 10
 }
 
-.home-main {
+.main {
     display: table-cell;
-    vertical-align: middle
+    vertical-align: middle;
+    margin: auto;
 }
 
 .home-header {
     margin-bottom: .3rem
 }
 
-.home-footer {
+.header {
+    position: absolute;
+    margin-top: 6rem;
+    left: 0px;
+    top: 0px;
+    width: 30rem;
+}
+
+.footer {
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -272,36 +281,11 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
     font-style: italic
 }
 
-.home-subtitle a {
-    color: inherit
-}
-
-.home-nav {
-    font-size: 17pt
-}
-
-.home-nav td {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px
-}
-
-.home-nav-secondary span {
-    text-transform: lowercase
-}
-
-.home-nav-secondary a {
+.subtitle {
+    color: #f2f2f2;
+    font-size: 18pt;
     font-weight: 300;
-    color: #99cbff
-}
-
-.home-nav-secondary span:after {
-    content: ' / ';
-    color: #999
-}
-
-.home-nav-secondary span:last-of-type:after {
-    content: ''
+    font-style: normal
 }
 
 @media only screen and (max-device-width: 480px) {
