@@ -171,7 +171,7 @@ html {
     color: #ffffff;
     width: 100%;
     height: 100%;
-    overflow: hidden
+    overflow: hidden;
 }
 
 body
@@ -189,7 +189,7 @@ body
     height: 100%;
     min-width: 100%;
     min-height: 100%;
-    z-index: 5
+    z-index: 5;
 }
 
 a {
@@ -216,11 +216,11 @@ table,caption,tbody,tfoot,thead,tr,th,td {
     border: 0;
     outline: 0;
     vertical-align: baseline;
-    background: transparent
+    background: transparent;
 }
 
 tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
-    background-color: inherit
+    background-color: inherit;
 }
 
 .container {
@@ -231,7 +231,7 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
     margin-left: 5%;
     margin-right: 5%;
     overflow: hidden;
-    z-index: 10
+    z-index: 10;
 }
 
 .main {
@@ -241,7 +241,7 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
 }
 
 .home-header {
-    margin-bottom: .3rem
+    margin-bottom: .3rem;
 }
 
 .header {
@@ -250,6 +250,7 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
     left: 0px;
     top: 0px;
     width: 30rem;
+    text-align: left;
 }
 
 .footer {
@@ -262,14 +263,15 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
     margin-bottom: .2rem;
     color: #fff;
     font-size: 38pt;
-    font-weight: 300
+    font-weight: 300;
+    text-align: left;
 }
 
 .home-subtitle {
     color: #f2f2f2;
     font-size: 18pt;
     font-weight: 300;
-    font-style: italic
+    font-style: italic;
 }
 
 .home-subtitle-mini {
@@ -278,21 +280,35 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
     color: #ffffff;
     font-size: 12pt;
     font-weight: 300;
-    font-style: italic
+    font-style: italic;
 }
 
 .subtitle {
     color: #f2f2f2;
     font-size: 18pt;
     font-weight: 300;
-    font-style: normal
+    font-style: normal;
+    text-align: left;
 }
 
 @media only screen and (max-device-width: 480px) {
     .container {
-        margin-left:5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
         margin-right: 5%;
-        text-align: center
+        height: 100%;
+        text-align: left;
+    }
+
+    .main {
+        display: table-cell;
+        vertical-align: top;
+        margin: auto;
+    }
+
+    .home-header {
+        margin-top: 20%;
     }
 
     .subtitle {
@@ -300,46 +316,61 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
         font-weight: 300;
         font-style: normal;
         font-size: 4vw;
-        width: 23.5rem;
-        text-align: center;
+        width: 18rem;
+        text-align: left;
     }
 
     .header {
         position: absolute;
-        margin-top: 6rem;
+        margin-top: 0rem;
         left: 0px;
         top: 0px;
-        width: 14rem;
-        font-size: 4vw
+        width: 18rem;
+        font-size: 4vw;
+        text-align: left;
     }
 
     .footer {
-        position: absolute;
-        bottom: 0px;
+        top: 92%;
         left: 0px;
-        font-size: 4vw
+        font-size: 4vw;
+        text-align: left;
     }
 
     .home-name {
-        margin-left:5%;
-        margin-right: 5%;
-        font-size: 10vw
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 10vw;
+        text-align: left;
     }
 
     .home-subtitle {
-        font-size: 5vw
+        font-size: 5vw;
     }
 
     .home-nav {
-        font-size: 5.2vw
+        font-size: 5.2vw;
     }
 }
 
 @media only screen and (max-device-width: 1080px) and (-webkit-device-pixel-ratio: 3) {
     .container {
-        margin-left:5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
         margin-right: 5%;
-        text-align: center
+        height: 100%;
+        text-align: left;
+    }
+
+    .main {
+        display: table-cell;
+        vertical-align: top;
+        margin: auto;
+    }
+
+    .home-header {
+        margin-top: 20%;    
     }
 
     .subtitle {
@@ -347,30 +378,32 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
         font-weight: 300;
         font-style: normal;
         font-size: 4vw;
-        width: 23.5rem;
-        text-align: center;
+        width: 20rem;
+        text-align: left;
     }
 
     .header {
         position: absolute;
-        margin-top: 6rem;
+        margin-top: 0rem;
         left: 0px;
         top: 0px;
-        width: 14rem;
-        font-size: 4vw
+        width: 20rem;
+        font-size: 4vw;
+        text-align: left;
     }
 
     .footer {
-        position: absolute;
-        bottom: 0px;
+        top: 92%;
         left: 0px;
-        font-size: 4vw
+        font-size: 4vw;
+        text-align: left;
     }
 
     .home-name {
-        margin-left:5%;
-        margin-right: 5%;
-        font-size: 10vw
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 10vw;
+        text-align: left;
     }
 
     .home-subtitle {
