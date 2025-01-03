@@ -1,0 +1,58 @@
+/* General styles */
+body {
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin: 0 0 10px;
+}
+
+/* Profile section */
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-picture {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Section separation */
+hr {
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    font-style: italic;
+    margin-top: 20px;
+}
